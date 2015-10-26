@@ -4,12 +4,10 @@ gemspec
 
 gem "rspec-rails", ">=2.14.0"
 gem "therubyrhino"
-gem "therubyracer"
 gem "jasmine"
 gem "headless"
 gem "selenium-webdriver"
 gem "coffee-script"
-gem "thin"
 gem "eventmachine"
 gem "faye-websocket"
 gem "simplecov"
@@ -24,4 +22,6 @@ platforms :jruby do
 end
 platforms :ruby do
   gem 'sqlite3'
+  gem "therubyracer"
+  gem "thin"
 end

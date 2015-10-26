@@ -1,6 +1,6 @@
 require "active_support/dependencies"
 require "logger"
-require "thin"
+# require "thin"
 
 module WebsocketRails
 
